@@ -164,6 +164,8 @@ SELECT
 	AVG(total) AS avg_total
 FROM sales;
 
+-- the average is 322.49
+
 SELECT
 	product_line,
 	CASE
@@ -171,7 +173,8 @@ SELECT
         ELSE "Bad"
     END AS remark
 FROM sales
-GROUP BY product_line;
+GROUP BY product_line
+ORDER BY remark desc;
 
 -- Which branch sold more products than average product sold? 
 SELECT branch, avg_branch
