@@ -173,16 +173,7 @@ SELECT
 FROM sales
 GROUP BY product_line;
 
-select 
-	avg(quantity) as z
-    from sales;
-
-SELECT 
-    branch, avg(quantity) AS x
-FROM sales
-GROUP BY branch;
-
--- Which branch sold more products than average product sold? !!!!!
+-- Which branch sold more products than average product sold? 
 SELECT branch, avg_branch
 FROM (
     SELECT 
