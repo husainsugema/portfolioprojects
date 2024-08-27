@@ -34,7 +34,7 @@ This project covers the development of two Tableau dashboards: a Sales Dashboard
 ## SQL Walmart Sales Data
 
 ### Description
-This project involves querying a Walmart sales dataset using SQL. The focus is on extracting meaningful insights and performing complex queries to answer specific business questions.
+This project involves querying a Walmart sales dataset using SQL. The focus is on extracting meaningful insights and performing complex queries to answer specific business questions. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
 ### Key Skills
 - Data Wrangling : Clean and prepare the data, ensuring no missing values.
@@ -56,7 +56,7 @@ In this project, I built a comprehensive Performance Report using Power BI. The 
 ## Python Web Scraping
 
 ### Description
-This project demonstrates how to scrape data from websites using Python. It includes extracting data from web pages, cleaning the data, and storing it in a structured format for further analysis.
+This project demonstrates how to scrape data from websites using Python. It includes extracting data from web pages, cleaning the data, and storing it in a structured format for further analysis. The dataset was obtained from [Wikipedia](https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue).
 
 ### Key Skills
 - Web Scraping with Python (BeautifulSoup, Requests)
